@@ -1,0 +1,85 @@
+#contenedor {
+	width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+	border: solid 1px;
+	position: relative;
+	top: 160px;
+
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	padding: 5px;
+	background-color: #FFAB20;
+	position: fixed;
+	z-index:101
+
+	
+}
+header #cabacera {
+	width: 960px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+header .logo {
+	width: 100px;
+	height: 100px;
+	background-image: url(../resources/logo1.png);
+	position: relative;
+	float: left;
+
+}
+header .titulo{
+	width: 600px;
+	height: 100px;
+	background-image: url(../resources/titulo.png);
+	position: relative;
+	float: left;
+	
+}
+
+nav {
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+	background-color: #FFEF7B;
+	position: fixed;
+	top: 110px;
+	text-align: center;
+	z-index:101
+}
+ul li {
+	margin: 5px 0 5px 0;
+	display: inline-block;
+
+}
+ul li .lista {
+	padding: 5px 15px 5px 15px;
+	text-decoration: none;
+	border: solid 1px;
+	color: #A6930B;
+}
+footer {
+	width: 100%;
+	height: 30px;
+	background-color: #FFEF7B;
+	position: relative;
+	top: 160px;
+	text-align: center;
+	color: #A6930B;
+}
+
+footer p {
+	margin: 5px 100px 0px 100px;
+	display: inline-block;
+}
+footer a {
+	text-decoration: none;
+	margin: 5px 100px 0px 100px;
+	display: inline-block;
+	color: #A6930B;
+}
