@@ -13,21 +13,24 @@ header {
 	height: 100px;
 	padding: 5px;
 	background-color: #FFAB20;
+	text-align: center;
+	margin: 0 auto;
 	position: fixed;
 	z-index:101
 
 	
 }
-header #cabacera {
+header #cabecera {
 	width: 960px;
+	margin-left: 50%;
 	height: 100px;
-	margin: 0 auto;
-	text-align: center;
 	position: relative;
+	
 }
 header .logo {
 	width: 100px;
 	height: 100px;
+	margin-left: -490px;
 	background-image: url(../resources/logo1.png);
 	position: relative;
 	float: left;
@@ -36,6 +39,7 @@ header .logo {
 header .titulo{
 	width: 600px;
 	height: 100px;
+	margin-left: -125px;
 	background-image: url(../resources/titulo.png);
 	position: relative;
 	float: left;
@@ -62,6 +66,9 @@ ul li .lista {
 	text-decoration: none;
 	border: solid 1px;
 	color: #A6930B;
+}
+#coin-slider .slide{
+	display: none;
 }
 footer {
 	width: 100%;
