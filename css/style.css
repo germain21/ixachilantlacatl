@@ -67,9 +67,40 @@ ul li .lista {
 	border: solid 1px;
 	color: #A6930B;
 }
-#coin-slider .slide{
-	display: none;
+#shortcuts{
+	width: 110px;
+	margin-right: 40px;
+	display: inline-block;
+	position: relative;
+	
 }
+.color1{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #BF9042;
+	text-align: center;
+}
+.color2{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #BFB042;
+	text-align: center;
+	
+}
+.links{
+	
+	font-size: 9px;
+	color:#FFEF7B;
+}
+#myCarousel{
+	height: 600px;
+	width: 800px;
+	display: inline-block;
+	position: relative;
+}
+
 footer {
 	width: 100%;
 	height: 30px;
