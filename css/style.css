@@ -4,13 +4,14 @@
 	background: #ffffff;
 	border: solid 1px;
 	position: relative;
+	text-align: center;
 	top: 160px;
 
 }
 
 header {
 	width: 100%;
-	height: 100px;
+	height: 110px;
 	padding: 5px;
 	background-color: #FFAB20;
 	text-align: center;
@@ -48,7 +49,7 @@ header .titulo{
 
 nav {
 	width: 100%;
-	height: 30px;
+	height: 40px;
 	padding: 5px;
 	background-color: #FFEF7B;
 	position: fixed;
@@ -67,6 +68,7 @@ ul li .lista {
 	border: solid 1px;
 	color: #A6930B;
 }
+/*pagina principal*/
 #shortcuts{
 	width: 110px;
 	margin-right: 40px;
@@ -89,8 +91,8 @@ ul li .lista {
 	text-align: center;
 	
 }
-.links{
-	
+.links {
+	margin-top: 50%;
 	font-size: 9px;
 	color:#FFEF7B;
 }
@@ -100,13 +102,100 @@ ul li .lista {
 	display: inline-block;
 	position: relative;
 }
+/*noticias*/
+section{
+	width: 960px;
+	border: 1px solid #000;
+}
+div .recientes,.eventos,.videos{
+	
+	width:220px;
+	height: 140px;
+	top:70px;
+	margin: -70px 5px 0 5px;
+	display:inline-block;
+	position: relative;
+}
 
+img.picnews{
+ 	width: 220px;
+ 	height: 140px;
+}
+p.info{
+	width: 100%;
+	height: 80px;
+	bottom: 115px;
+	position: relative;
+	background-color: rgba(18, 145, 207, 0.5);
+	font-family: 'Alike', serif;
+    font-size: 15px;  
+    color:white;
+    text-align: center;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+}
+
+.videos:hover p.info{
+	opacity: 1;
+}
+.recientes:hover p.info{
+	opacity: 1;
+}.eventos:hover p.info{
+	opacity: 1;
+}
+/* productos y servicios*/
+#circulo{
+	width: 600px;
+	height: 600px;
+	margin: 100px 180px 100px 180px;
+	position:relative;
+}
+#sol{
+	width: 400px;
+	height: 400px;
+	background-image: url(../resources/calendario.png);
+	left:270px;
+	top: -595px;
+	position:relative;	
+}
+/* seccion contacto*/
+form{
+	width: 400px;
+	margin: 15px;
+	display: inline-block;
+	position: relative;
+	border: solid 1px;
+
+}
+input:required:invalid {
+ 
+border: 1px solid red;
+ 
+}
+ 
+input:required:valid {
+ 
+border: 1px solid green;
+}
+#info{
+	width: 450px;
+	margin: 15px;
+	display: inline-block;
+	position: relative;
+	top:-300px;
+	text-align: justify;
+	border: solid 1px;
+}
+
+/*footer*/
 footer {
 	width: 100%;
 	height: 30px;
 	background-color: #FFEF7B;
 	position: relative;
-	top: 160px;
+	top:170px;
 	text-align: center;
 	color: #A6930B;
 }

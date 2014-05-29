@@ -1,30 +1,4 @@
-<!doctype html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Ixachilantlacatl</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-</head>
-<body>
-	<header>
-		<div id="cabecera">
-		<a href="index.html"><div class="logo"></div></a>
-		<div class="titulo"></div>
-		</div>
-	</header>
-	<nav>
-		<ul id="menu">
-			<li><a href="index.php" id="inicio" class="lista">INICIO</a></li>
-			<li><a href="about.php" class="lista" id="conocenos">CONOCENOS</a></li>
-			<li><a href="news.php" class="lista">NOTICIAS</a></li>
-			<li><a href="services.php" class="lista">PRODUCTOS Y SERVICIOS</a></li>
-			<li><a href="contact.php" class="lista">CONTACTO</a></li>
-		</ul>
-	</nav>
-	<div id="contenedor">
-		<div id="shortcuts">
+<div id="shortcuts">
 			<ul class="nav nav-pills nav-stacked">
 				<li class="color1"><a href="index.php"><p class="links">INICIO</p></a></li>
 				<li class="color2"><a href="about.php"><p class="links">NOSOTROS</p></a></li>
@@ -70,15 +44,3 @@
 			<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
 			<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
 		</div>
-		
-	</div>
-	<footer>
-		<p>Copyright © 2014 Ixachilantlacatl A.C. Todos los Derechos Reservados </p>
-		<a href="#" id="contacto">contacto</a>
-	</footer>
-	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/extremes.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-</body>
-</html>
