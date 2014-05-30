@@ -1,4 +1,4 @@
-<p>contacto</p>
+<p id="principal">CONTACTO</p>
 	<form action="">
 		<p>Nombre</p>
 		<input class="form-control" id="inputSeleccionado" type="text" placeholder="Escribe tunombre" required>
@@ -16,6 +16,6 @@
 	</form>
 	<div id="info">
 		<p>
-			<h3>Para mas informacion acerca de Los Cursos de Nahuatl en los pueblos, sobre las artesanias que ofrecemos o para cualquier otra duda que tengas, escribenos te responderemos a la brevedad posible.</h2>
+			<h4>Para mas informacion acerca de Los Cursos de Nahuatl en los pueblos, sobre las artesanias que ofrecemos o para cualquier otra duda que tengas, escribenos te responderemos a la brevedad posible.</h2>
 		</p>
 	</div>

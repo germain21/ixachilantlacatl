@@ -1,11 +1,21 @@
+body{
+	color:#A6930A !important;
+	font-family: 'Rokkitt', serif !important;
+}
+
+
 #contenedor {
 	width: 960px;
 	margin: 0 auto;
 	background: #ffffff;
-	border: solid 1px;
+	border: solid 1px #000000;
 	position: relative;
 	text-align: center;
 	top: 160px;
+
+}
+#principal{
+	font-size: 50px;
 
 }
 
@@ -97,15 +107,28 @@ ul li .lista {
 	color:#FFEF7B;
 }
 #myCarousel{
-	height: 600px;
-	width: 800px;
+	
 	display: inline-block;
 	position: relative;
+}
+/*nosotros*/
+#about{
+	text-align: justify;
+}
+div #tamano{
+	display: inline-block;
+}
+div #tamano img{
+	width: 75px;
+	height: 75px;
+	position: relative;
+	display: inline-block;
+
 }
 /*noticias*/
 section{
 	width: 960px;
-	border: 1px solid #000;
+	
 }
 div .recientes,.eventos,.videos{
 	
@@ -126,7 +149,7 @@ p.info{
 	height: 80px;
 	bottom: 115px;
 	position: relative;
-	background-color: rgba(18, 145, 207, 0.5);
+	background-color: rgba(191, 144, 66, 0.5);
 	font-family: 'Alike', serif;
     font-size: 15px;  
     color:white;
@@ -149,15 +172,18 @@ p.info{
 #circulo{
 	width: 600px;
 	height: 600px;
-	margin: 100px 180px 100px 180px;
+	margin: 80px 180px 80px 180px;
 	position:relative;
+	color: #ff0000;
 }
 #sol{
 	width: 400px;
 	height: 400px;
+	border-radius: 100%;
+	background-color: #000;
 	background-image: url(../resources/calendario.png);
-	left:270px;
-	top: -595px;
+	left:255px;
+	top: -590px;
 	position:relative;	
 }
 /* seccion contacto*/
@@ -166,7 +192,7 @@ form{
 	margin: 15px;
 	display: inline-block;
 	position: relative;
-	border: solid 1px;
+	
 
 }
 input:required:invalid {
@@ -186,8 +212,10 @@ border: 1px solid green;
 	position: relative;
 	top:-300px;
 	text-align: justify;
-	border: solid 1px;
+	
 }
+/* artesanias*/
+
 
 /*footer*/
 footer {
@@ -209,4 +237,194 @@ footer a {
 	margin: 5px 100px 0px 100px;
 	display: inline-block;
 	color: #A6930B;
+}
+
+
+
+
+@media(max-width:800px){
+
+#contenedor{
+	width: 800px;
+	top:0;
+}
+header {
+height: 100px;
+padding: 0px;
+text-align: center;
+position:relative;
+}
+header #cabecera {
+	width: 800px;
+	margin:0px;
+	position: relative;	
+}
+header .logo {
+	margin-left:0px;
+	background-image: url(../resources/logo1.png);
+	position: relative;
+	float: left;
+
+}
+header .titulo{
+	width: 600px;
+	height: 80px;
+	margin-left: 70px;
+	background-image: url(../resources/titulo.png);
+	position: relative;
+	float: left;
+	
+}
+
+nav {
+	width: 100%;
+	height: 35px;
+	padding: 5px;
+	top: 0;
+	background-color: #FFEF7B;
+	position: relative;
+	text-align: center;
+}
+ul li {
+	margin: 0px 0 0px 0;
+	display: inline-block;
+
+}
+ul li .lista {
+	padding: 0px 15px 0x 15px;
+	text-decoration: none;
+	border: solid 1px;
+	color: #A6930B;
+}
+#shortcuts{
+	display: none;
+}
+footer{
+	top:0;
+}
+footer p {
+	margin: 5px 10px 0px 10px;
+	display: inline-block;
+}
+footer a {
+	text-decoration: none;
+	margin: 5px 10px 0px 10px;
+	display: inline-block;
+	color: #A6930B;
+}
+
+section{
+	width: 800px;
+	
+}
+form{
+	width: 300px;
+	margin: 5px;
+}
+#info{
+	width: 400px;
+	margin: 20px;
+	top:0px;
+	font-size: 12px;
+}
+}
+
+
+@media(max-width:350px){
+
+#contenedor{
+	width: 320px;
+	top:0;
+	border: #ffffff;
+}
+header {
+height: 55px;
+padding: 0px;
+text-align: center;
+position:relative;
+background-color: #FFE9C4;
+}
+header #cabecera {
+	width: 320px;
+	margin:0px;
+}
+header .logo {
+	display: none;
+
+}
+header .titulo{
+	width: 320px;
+	height: 55px;
+	margin-left: 0px;
+	background-image: url(../resources/titulomini.png);
+	
+}
+
+nav {
+	width: 100%;
+	height: 180px;
+	padding: 5px;
+	top: 0;
+	background-color: #FFE9C4;
+	position: relative;
+	text-align: center;
+}
+nav ul li {
+	width: 250px;
+	margin: 5px;
+	border:solid 2px;
+	display: inline-block;
+
+}
+nav ul li .lista {
+	width: 250px;
+	padding: 5;
+	border: solid 1px #FFE9C4;
+	text-decoration: none;
+	color: #A6930B;
+}
+#myCarousel{
+	width: 320px;
+	height: 200px;
+}
+footer{
+	height: 20px;
+}
+footer p {
+	font-size: 9px;
+}
+footer a {
+	display: none;
+}
+section{
+	width: 320px;
+	}
+#circulo{
+	width: 320px;
+	height: 320px;
+	margin: 0;
+	left:-100px;
+	position:relative;
+	color: #ff0000;
+}
+#sol{
+	width: 320px;
+	height: 320px;
+	background-image: url(../resources/calendario.png) w;
+	background-repeat: no-repeat;
+	left:10px;
+	top: -200px;
+	position:relative;	
+}
+
+form{
+	width: 250px;
+	margin: 5px;
+}
+#info{
+	width: 300px;
+	margin: 5px;
+	top:0px;
+	font-size: 10px;
+}
 }
